@@ -37,7 +37,7 @@ NCR710 SCSI Controller
 ----------------------
 [x] Design from ground up
 [x] Compatibiality testing as PCI Device from the WinUAE
-[x] Implementation with Seabios
+[x] Adding NCR710 support to Seabios, this was done hackishly as seabios primarily support PCI devices but ours is non-PCI device.
 [x] Adding LASI_NCR710 support to QEMU
 [x] Redesigned the NCR710 entirely from the linux kernel
 
